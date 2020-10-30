@@ -33,6 +33,9 @@ h1{
 .count > h1{
     margin: 20px;
     position: static;
+    display: inline-block;
+    width: 100px;
+    color: #DAD6D6;
 }
 .btn{
     width: 50%;
@@ -67,3 +70,46 @@ h1{
     border: 2px solid #2f2e30;
     border-radius: 5px;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .head{
+        padding: 0px;
+        font-size: 20px;
+        background-color:black;
+        display: inline-block;
+        border: .3px solid white;
+        width: 50%;
+        border-radius: 10px 10px 0px 0px;
+        margin: 2px;
+    }
+    .count{
+        font-size: 25px;
+        display: inline-block;
+        background-color: black;
+        width: 50%;
+        border: .3px solid white;
+        margin: 2px;
+    
+    }
+    .count > h1{
+        margin: 20px;
+        position: static;
+        display: inline-block;
+        width: 20px;
+        color: #DAD6D6;
+    }
+    .btn{
+        width: 50%;
+        height: 50px;
+        border: .3px solid white;
+        border-radius: 0px 0px 10px 10px;
+    
+    }
+    .btn button{
+        width: 60px;
+        height: 20px;
+        margin: 10px;
+        font-size: 10px;
+    }
+  }

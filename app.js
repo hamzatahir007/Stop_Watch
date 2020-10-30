@@ -15,7 +15,7 @@ function timer(){
         sec++
         secHeading.innerHTML = sec
     }
-    else if(sec >= 10){
+    else if(sec >= 60){
         sec = 0
         min++
         minHeading.innerHTML = min
